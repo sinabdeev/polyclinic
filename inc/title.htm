@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Бетховен</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script language='javascript' src='kalendar.sj'></script>
+	<script language="javascript" src="xp_progress.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=Windows-1251">   
+</head>
+<body>
+	<script language="JavaScript" src="menu.js"></script>
+	<script language="JavaScript" src="menucontext.js"></script>
+	<script language="JavaScript">showToolbar();</script>
+	<script language="JavaScript">
+
+		function UpdateIt(){
+
+			if (document.all){
+				document.all["MainTable"].style.top = document.body.scrollTop;
+				setTimeout("UpdateIt()", 100);
+			}
+		}
+		
+	UpdateIt();
+	</script>

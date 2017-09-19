@@ -1,0 +1,400 @@
+body {
+	margin : 0;
+	font-family: Tahoma;
+}
+
+
+
+A.Menu:active, A.Menu:focus,  A.Menu:link, A.Menu:visited {
+	font-family: Tahoma;
+	color : #767676;
+	font-weight : bold;
+	text-decoration : none;
+	font-size : 20px;
+	height : auto;
+	line-height : normal;
+	white-space : nowrap;
+}
+A.Menu:hover {
+	font-family: Tahoma;
+	color : #767676;
+	font-weight : bold;
+	text-decoration : underline;
+	font-size : 20px;
+}
+table.centr {
+border : 1px ;
+
+border-collapse:collapse;
+
+font-family: Tahoma; 
+font-size: 12px;
+white-space:normal;
+
+
+}
+td.wapka {
+border-left-style: solid; 
+border-left-width: 1px; 
+border-left-color:#999999;
+
+border-right-style: solid; 
+border-right-width: 1px; 
+border-right-color:#999999;
+
+border-top: 1px solid ; 
+border-top-color:#999999;
+
+border-bottom-style: solid; 
+border-bottom-width: 1px;
+border-bottom-color:#999999;
+
+font-family: Tahoma; 
+font-size: 12px;
+font-weight:bold;
+white-space:normal;
+
+vertical-align:top;
+
+}
+
+input.knopka {
+width: 82px; 
+height: 21px;
+font-family: Tahoma; 
+font-size: 12px;
+}
+
+
+input.pole_Nomer { 
+border:0px solid #000000; 
+padding:0; 
+font-family: Tahoma; 
+font-size: 12px; 
+width: 25; 
+height: 20; 
+text-align:right;
+}
+
+input.pole_Nomer_Viruchka
+{ 
+border:0px solid #000000; 
+padding:0; 
+font-family: Tahoma; 
+font-size: 12px; 
+width: 85; 
+height: 20; 
+text-align:right;
+}
+
+
+input.pole_Data { 
+border:1px solid #000000; 
+padding:0; 
+font-family: Tahoma; 
+font-size: 12px; 
+width: 125px; 
+height: 17px; 
+text-align:center;
+}
+
+
+
+
+
+tr.wapka {
+font-family: Tahoma; 
+font-size: 12px; 
+
+background-color:#D4D0C8;
+}
+
+
+select.Nomer { 
+font-family: Tahoma; 
+font-size: 12px; 
+width: 45; 
+z-index:0;
+}
+
+
+select.fio { 
+z-index:0;
+font-family: Tahoma; 
+font-size: 12px; 
+width: 110px; 
+}
+
+select.jivot { 
+z-index:0;
+font-family: Tahoma; 
+font-size: 12px; 
+width: 140px; 
+}
+
+
+input {
+width: 105px; 
+
+height: 18px; 
+font-family: Tahoma; 
+font-size: 12px;
+}
+
+
+
+textarea.Pri4ina {
+	font-family: Tahoma;
+	font-size: 12px;
+	height: 35px;
+	width : 415px;
+}
+
+textarea.Le4enie {
+	font-family: Tahoma;
+	font-size: 12px;
+	height: 35px;
+	width : 330px;
+}
+
+
+input.FIO {
+width: 170px; 
+font-family: Tahoma; 
+font-size: 12px;
+}
+
+
+select.ulica { 
+z-index:0;
+font-family: Tahoma; 
+font-size: 12px; 
+width: 215px; 
+}
+
+select.sex { 
+z-index:0;
+font-family: Tahoma; 
+font-size: 12px; 
+width: 40px; 
+}
+
+
+input.Dolg {
+width: 80px; 
+font-family: Tahoma; 
+font-size: 12px;
+}
+
+input.Symma {
+width: 170px; 
+font-family: Tahoma; 
+font-size: 12px;
+}
+
+
+input.ulica {
+width: 240px; 
+font-family: Tahoma; 
+font-size: 12px;
+}
+
+
+select.diagnoz {
+	width: 136px;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+
+select.kind_jivot{
+	width: 100px;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+table {
+border : 0px ;
+}
+
+
+td.spacer {
+	background-color:#D4D0C8;
+	vertical-align : middle;
+	text-align : right;
+}
+
+
+
+
+all.clsMenuItemNS{
+font: Verdana;
+font-size:19px;
+ 
+color: #CC9900; 
+text-decoration: none;
+background-color: #CC9900;
+}
+
+
+/*a.clsMainMenuItemIE{*/
+A.clsMainMenuItemIE:active, A.clsMainMenuItemIE:focus,  A.clsMainMenuItemIE:link, A.clsMainMenuItemIE:visited {
+text-decoration: none; 
+font: Verdana;
+font-size:19px;
+color: #1F1F1F; 
+background-color: #D4D0C8;
+cursor: hand;
+}
+
+
+
+/*a.clsMenuItemIE : {*/
+A.clsMenuItemIE:active, A.clsMenuItemIE:focus,  A.clsMenuItemIE:link, A.clsMenuItemIE:visited {
+text-decoration: none; 
+font: Verdana;
+font-size:17px;
+color: #1F1F1F; 
+background-color: #ffffff;   /*  	this.bgColor2     */
+cursor: hand;
+}
+
+
+
+
+
+A.Static_Menu:hover {
+font: Verdana;
+font-size:19px;
+color: #FFFFFF;
+background-color: #0A246A;
+}
+
+A.clsMenuItemIE:hover {
+font: Verdana;
+font-size:17px;
+color: #FFFFFF;
+background-color: #0A246A;
+}
+
+
+
+
+A.navigator:active, A.navigator:focus, A.navigator:link, A.navigator:visited {
+text-decoration: none;
+font-family: Tahoma;
+color: #000000;
+	font-size : 14px;
+	font-weight : bold;
+}
+A.navigator:hover {
+	text-decoration: underline;
+	font-family: Tahoma;
+	color: #000000;
+	font-size : 14px;
+	background-color : #BFBFFF;
+	font-weight : bold;
+}
+
+
+A.navigator2:active, A.navigator2:focus, A.navigator2:link, A.navigator2:visited {
+	text-decoration: none;
+	font-family: Tahoma;
+	color: Red;
+	font-weight : bold;
+	font-size : 16px;
+}
+A.navigator2:hover {
+	text-decoration: underline;
+	font-family: Tahoma;
+	font-weight : bold;
+	color: Red;
+	font-size : 16px;
+	background-color : #BFBFFF;
+}
+
+
+
+a.clsMainMenuItemIE :hover{
+text-decoration: none; 
+font: Verdana;
+font-size:19px;
+color: #FFFFFF; 
+background-color: #0A246A;
+
+}
+
+input.Dom {
+width: 40px; 
+font-family: Tahoma; 
+font-size: 12px;
+text-align:center;
+}
+
+input.Vozrast {
+width: 43px; 
+font-family: Tahoma; 
+font-size: 12px;
+text-align:center;
+}
+
+
+input.Flat {
+width: 40px; 
+font-family: Tahoma; 
+font-size: 12px;
+text-align:center;
+}
+
+
+table.centr td {
+text-align:center;
+}
+
+table.centr td input {
+text-align:center;
+}
+
+
+layer {
+z-index:1;
+}
+
+
+table.SubMenu {
+/*border-collapse:collapse;*/
+border-width: 1px;
+background-color:#ffffff;
+}
+
+
+
+td.SubMenuItem {
+border-left-style: solid; 
+border-left-width: 1px; 
+border-left-color:#545454;
+
+border-right-style: solid; 
+border-right-width: 1px; 
+border-right-color:#545454;
+
+border-top: 1px solid ; 
+border-top-color:#545454;
+
+border-bottom-style: solid; 
+border-bottom-width: 1px;
+border-bottom-color:#545454;
+
+}
+
+
+
+A.shapka {
+	font-family: Tahoma;
+	color: #000000;
+	font-weight : bold;
+	text-decoration:none;
+	font-size : 12px;
+}
+
+
